@@ -1,0 +1,123 @@
+.main_landing
+
+.prof
+  overflow: hidden
+  position: relative
+  
+  &_mouse
+    background-image: url(../img/MOUSE_FOR_SITE.svg)
+    background-repeat: no-repeat
+    background-position: center
+    width: 100px
+    height: 150px
+    margin-top: 40px
+    opacity: .5
+
+
+  &__bg
+    background-image: url(../img/bg__foto_1.jpg)
+    background-position: center
+    background-size: cover
+    height: 985px
+    width: 100%
+    -webkit-filter: blur(4px)
+    -moz-filter: blur(4px)
+    -ms-filter: blur(4px)
+    -o-filter: blur(4px)
+    filter: blur(4px)
+
+    &:after
+      content: ''
+      position: absolute
+      top: 0
+      left: 0
+      right: 0
+      bottom: 0
+      width: 100%
+      height: 100%
+      background-color: rgba(54,66,94,.6)
+
+
+
+
+.logo
+  width: 160px
+  height: 160px
+  min-width: 60px
+  min-height: 60px
+  background-color: $bg_color_2
+  background-image: url(../img/svs_logo.svg)
+  background-position: center
+  background-repeat: no-repeat
+  margin: 0 auto
+  border-radius: 50%
+  border: 3px solid $bg_color_2
+  -webkit-box-shadow: 0 5px 8px rgba(0,0,0, .5)
+  -moz-box-shadow: 0 5px 8px rgba(0,0,0, .5)
+  box-shadow: 0 5px 8px rgba(0,0,0, .5)
+  position: absolute
+  left: 46.5%
+  top: 10px
+  box-sizing: border-box
+  z-index: 99999
+
+
+
+.content
+  color: #FFFFFF
+  position: absolute
+  top: 200px
+  left: calc(100%/3.6)
+  align-items: center
+  display: flex
+  justify-content: center
+  flex-direction: column
+
+
+
+
+  &__first_name
+    font-family: "Caviar_Dreams_regular"
+    font-size: 3.75rem
+
+  &__second_name
+    padding-top: 55px
+    font-family: "Roboto-Light"
+    font-size: 1.875rem
+
+    &__first__word
+      padding-right: 25px
+      font-family: "Roboto-Light"
+      font-size: 1.875rem
+
+    &__second__word
+      position: relative
+      padding-left: 37px
+      font-family: "Roboto-Light"
+      font-size: 1.875rem
+
+      &::before
+        position: absolute
+        content: ''
+        border-radius: 50%
+        background: $accent_color
+        width: 5px
+        height: 5px
+        top: 17px
+        left: 1px
+
+
+  &__prof__title
+    margin: 0
+    padding-top: 100px
+    font-family: "Roboto-Light"
+    font-size: 3.75rem
+    font-weight: 200px
+
+  &__prof__text
+    padding-top: 60px
+    font-family: "Roboto-Bold"
+    font-size: 3.125rem
+    
+
+

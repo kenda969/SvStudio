@@ -1,0 +1,67 @@
+.services
+  text-align: center
+  padding: 65px 0
+
+  &__title
+    font-family: "Roboto-Regular"
+    font-size: 3.125rem
+    color: $text_color_dark
+
+  &__item
+    padding-top: 58px
+    +row-flex
+    justify-content: space-between
+
+  &__list
+    +col
+    +size(3.5)
+    border: 4px solid $bg_accent_color
+    border-radius: 26px
+    background-color: $bg_color_2
+    transition: .5s
+
+    &:hover
+      border-color: $accent_color
+      cursor: pointer
+      transform: scale(1.1)
+      box-shadow: 1px 2px 40px 1px $text_color_dark
+
+  &__icon
+    width: 150px
+    height: 150px
+    background-position: center
+    background-repeat: no-repeat
+    -webkit-background-size: 150px 150px
+    background-size: 150px 150px
+    margin: 0 auto
+    padding-top: 35px
+
+    &--left
+      background-image: url(../img/Plashka.svg)
+      -webkit-background-size: 110px 110px
+      background-size: 110px 110px
+    &--center
+      background-image: url(../img/svadba.svg)
+    &--right
+      background-image: url(../img/kvadrocopter.svg)
+
+  &__btn
+    padding: 180px 20px 155px 20px
+    color: $text_color_dark
+    font-size: 2.5rem
+    font-family: "Roboto-Light"
+
+
+  &__price
+    padding: 60px 0
+    color: $text_color_dark
+    font-size: 1rem
+    font-family: "Roboto-Light"
+
+    &__amount
+      font-family: "Roboto-Regular"
+      font-size: 2.3rem
+      color: $accent_color
+
+
+

@@ -1,0 +1,139 @@
+.contacts
+  padding-top: 65px
+  background-color: $bg_color_3
+
+  &__title
+    text-align: center
+    font-family: "Roboto-Regular"
+    font-size: 3.125rem
+    color: $text_color_dark
+
+  &__form
+    +shift(2)
+    padding-top: 87px
+
+  &__input
+    height: 48px
+    border: none
+    border-radius: 13px
+
+    &[placeholder]
+      color: $text_color_dark
+      font-family: "Roboto-Light"
+      font-size: .9rem
+      padding-left: 10px
+
+    &--size_name
+      +size(10)
+      +shift(1)
+      margin-bottom: 10px
+    &--size_mail
+      +size(5)
+      +shift-left(1)
+    &--size_phone
+      +size(4.8)
+
+      margin-left: 10px
+
+  &__question
+    +size(10)
+    +shift(1)
+    margin-top: 10px
+    border: none
+    border-radius: 13px
+
+    &[placeholder]
+      color: $text_color_dark
+      font-family: "Roboto-Light"
+      font-size: .9rem
+      padding-left: 10px
+      padding-top: 15px
+
+  &__button
+    +size(4)
+    +shift(4)
+    margin-top: 25px
+    margin-bottom: 120px
+    border: none
+    border-radius: 13px
+    height: 48px
+    background-color: $accent_color
+    transition: .5s
+    cursor: pointer
+    
+    &:hover
+      background-color: $accent_color_hover
+
+    &[placeholder]
+      color: $text_color_dark
+      font-family: "Roboto-Regular"
+      font-size: 1.3rem
+      text-transform: uppercase
+      color: $bg_color_1
+
+  &_info
+    display: flex
+    justify-content: space-around
+
+    &__left
+      display: flex
+      align-items: center
+
+    &__right
+      display: flex
+      align-items: center
+    &__img
+      width: 20px
+      height: 20px
+
+    &__btn
+      margin-left: 15px
+      font-family: "Roboto-Light"
+      font-size: 1.625rem
+      color: $accent_color
+
+    &__mailto
+      margin-left: 15px
+      font-family: "Roboto-Light"
+      font-size: 1.625rem
+      color: $text_color_dark
+
+  &_social
+
+    &__item
+      padding: 120px 0 60px 0
+      display: flex
+      justify-content: space-around
+      +size(8)
+      +shift(2)
+
+    &--list-size
+      width: 60px
+      height: 60px
+      
+    &__list1
+      background-image: url(../img/vk-social-logotype.svg)
+
+    &__list2
+      background-image: url(../img/facebook-logo-button.svg)
+
+    &__list3
+      background-image: url(../img/instagram-logo.svg)
+      
+    &__list4
+      background-image: url(../img/youtube-symbol.svg)
+
+    &__btn
+      padding: 20px 0 20px 0
+
+      
+
+
+
+
+      
+
+
+
+
+

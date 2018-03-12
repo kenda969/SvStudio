@@ -1,0 +1,41 @@
+.reviews
+  padding: 65px 0
+  background-color: $bg_color_3
+
+  &__title
+    text-align: center
+    font-family: "Roboto-Regular"
+    font-size: 3.125rem
+    color: $text_color_dark
+
+  &__item
+    padding-top: 58px
+    +row-flex
+    justify-content: space-between
+
+  &__list
+    +col
+    +size(2.7)
+    margin: 0
+
+
+  &__icon
+    margin-left: 13%
+    border-radius: 50%
+
+  &__text
+    padding-top: 30px
+    font-family: "Roboto-Light"
+    color: $text_color_dark
+    font-size: 1.25rem
+    line-height: 25px
+    letter-spacing: 1px
+    
+  &__btn
+    ont-family: "Roboto-Light"
+    color: $text_color_ligth
+    font-size: .8rem
+    transition: .5s
+
+    &:hover
+      color: $accent_color

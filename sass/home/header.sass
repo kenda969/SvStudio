@@ -1,0 +1,44 @@
+.header_bg
+  background-color: $bg_color_2
+  padding: 35px 0
+  box-shadow: 0 0 10px rgba(0,0,0, .5)
+  -webkit-box-shadow: 0 0 10px rgba(0,0,0, .5)
+  -moz-box-shadow: 0 0 10px rgba(0,0,0, .5)
+
+.nav
+  display: flex
+  justify-content: space-between
+
+  &__ul
+    +size(5)
+    display: flex
+    margin: 0
+    padding: 0
+
+    &--left
+      justify-content: flex-start
+
+    &--right
+      justify-content: flex-end
+
+  &__li
+
+    &--left
+      padding-left: 100px
+
+      &:first-child
+        padding-left: 0
+
+
+    &--right
+      padding-right: 100px
+
+      &:last-child
+        padding-right: 0
+
+  &__btn
+    font-size: 1.4rem
+    font-family: Roboto-Light
+    color: $text_color_dark
+
+
